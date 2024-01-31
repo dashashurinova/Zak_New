@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima&family=Anton&family=Dancing+Script&family=IM+Fell+DW+Pica&family=Inter:wght@400;500&family=Monoton&family=Montaga&family=PT+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./pages.css">
+    <title>ZakIvKusto</title>
+    <link rel="shortcut icon"  href="/ZakIvKusto/img/favicon.ico"
+</head>
+<body class="body">
+    <header class="header">
+        <img src="./img/logo.svg" alt="logo">
+        <div class="header__line"></div>
+    </header>
+    <section class="body__section1">
+        <div class="avatar_box"><img  class="avatar" src="./img/zak.jpg" alt="avatar"></div>
+        
+        <div class="body__section1_text">
+            <p class="body__section1_textMain">Жак-Ив Кусто</p>
+            <p class="body__section1_text_smal">Исследователь океана</p>
+        </div>
+        <button class="body__section1_edit"><img src="./img/Edit Button.svg" alt="edit"></button>
+        <button class="body__section1_add" ><img src="./img/Add Button.svg" alt="add"></button>
+    </section>
+    <main class="main">
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/krsk.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Красноярск</label>
+        </div>
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/piter.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Петербург</label>
+        </div>
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/baikal.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Байкал</label>
+        </div>
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/redSquare.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Москва</label>
+        </div>
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/altai.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Алтай</label>
+        </div>
+        <div class="main__card">
+            <img class="main__card_rectangle" src="./img/Rectangle.png" alt="">
+            <img class="main__card_picture" src="./img/kamtshatka.jpg" alt="">
+            <button><img class="main__card_heart" src="./img/heart.svg" alt="heart"></button>
+            <label class="main__card_text" for="picture">Камчатка</label>
+      </div>
+        <section class="popUpWindow">
+            <div class="popUpWindow__container">
+                <p class="popUpWindow__container_header">Редактировать профиль</p>
+                <input class="popUpWindow__container_input" id="new_name" type="text" placeholder="Введите своё имя">
+                <div class="popUpWindow__container_line"></div>
+                <input class="popUpWindow__container_input " id="new_stat" type="text" placeholder="А сюда свой статус">
+                <div class="popUpWindow__container_line"></div>
+                <button class="popUpWindow__container_button">Сохранить</button>
+                <button class="popUpWindow__container_close-button"><img src="./img/Close Icon.svg" alt=""></button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <p class="footer__text">© 2024 Mesto Shurinova</p>
+    </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

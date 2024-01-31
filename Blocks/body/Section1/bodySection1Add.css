@@ -1,0 +1,8 @@
+.body__section1_add {
+    margin-left: auto;
+    background-color: #000000;
+}
+
+.body__section1_add:hover {
+    opacity: 0.800000011920929;
+}

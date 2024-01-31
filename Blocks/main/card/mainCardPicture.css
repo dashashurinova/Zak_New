@@ -1,0 +1,8 @@
+.main__card_picture {
+    position: absolute;
+    z-index: 1;
+    /* width: 100%; */
+    height: 282px;
+    
+    border-radius: 10px 10px 0 0;
+}

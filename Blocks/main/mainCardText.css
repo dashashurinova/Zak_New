@@ -1,0 +1,9 @@
+.main__card_text {
+    position: absolute;
+    top: 307px;
+    left: 21px;
+    color: #000;
+    font-family:  'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}

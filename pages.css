@@ -1,0 +1,26 @@
+@import url(./Blocks/body/body.css);
+@import url(./Blocks/header/line/headerLine.css);
+
+@import url(./Blocks/body/Section1/bodySection1.css);
+@import url(./Blocks/body/Section1/bodySection1TextSmal.css);
+@import url(./Blocks/body/Section1/bodySection1TextMain.css);
+@import url(./Blocks/body/Section1/bodySection1Text.css);
+@import url(./Blocks/body/Section1/bodySection1Add.css);
+@import url(./Blocks/body/Section1/bodySection1Edit.css);
+
+@import url(./Blocks/main/main.css);
+@import url(./Blocks/main/card/mainCard.css);
+@import url(./Blocks/main/card/mainCardHeart.css);
+@import url(./Blocks/main/card/mainCardPicture.css);
+@import url(./Blocks/main/card/mainCardRectangle.css);
+@import url(./Blocks/main/mainCardText.css);
+
+@import url(./Blocks/footer/footer.css);
+@import url(./Blocks/footer/text/footerText.css);
+
+@import url(./Blocks/popUpWindow/container/popUpWindowContainer.css);
+
+
+
+
+
