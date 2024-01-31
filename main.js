@@ -25,7 +25,7 @@ saveButton.addEventListener('click',function(){
 })
 
 addButton.addEventListener('click', function(){
-    var sign = window.alert("Нажми на сердечки")
+    var sign = window.alert("Нажми на сердечки и впиши своё имя")
 })
 
 
